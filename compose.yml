@@ -57,7 +57,7 @@ services:
     # specify environment variables for the api service
     # for demo purposes, we're using a local mongodb instance
     environment: 
-      DB_URL: mongodb+srv://kelvinobiri313:salvation2035@dockertest.ujyq3o9.mongodb.net/?retryWrites=true&w=majority&appName=dockerTest
+      DB_URL: mongodb+srv://username:password@dockertest.ujyq3o9.mongodb.net/?retryWrites=true&w=majority&appName=dockerTest
     
     # establish docker compose watch mode for the api service
     develop:
